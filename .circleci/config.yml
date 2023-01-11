@@ -11,21 +11,22 @@ jobs:
             python3 -m venv venv
             . venv/bin/activate
             pip install -r requirements.txt
-          
-   
-          deploy:
-            docker:
-              - image: cimg/base:2022.06
-            steps:
-              - checkout
-              - setup_remote_docker:
-                  version: 19.03.13
-              - run:
-                  name: Build and push to Docker Hub
-                  command: |
-                    docker build -t $DOCKER_HUB_USER_ID/$IMAGE_NAME:latest .
-                    echo "$DOCKER_HUB_PASSWORD" | docker login -u "$DOCKER_HUB_USER_ID" --password-stdin
-                    docker push $DOCKER_HUB_USER_ID/$IMAGE_NAME:latest
+
+      
+
+  deploy:
+    docker:
+      - image: cimg/base:2022.06
+    steps:
+      - checkout
+      - setup_remote_docker:
+          version: 19.03.13
+      - run:
+          name: Build and push to Docker Hub
+          command: |
+            docker build -t $DOCKER_HUB_USER_ID/$IMAGE_NAME:latest .
+            echo "$DOCKER_HUB_PASSWORD" | docker login -u "$DOCKER_HUB_USER_ID" --password-stdin
+            docker push $DOCKER_HUB_USER_ID/$IMAGE_NAME:latest
 
 workflows:
   version: 2
