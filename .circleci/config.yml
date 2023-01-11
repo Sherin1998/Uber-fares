@@ -12,7 +12,7 @@ jobs:
             . venv/bin/activate
             pip install -r requirements.txt
           
-      - run:
+   
           deploy:
             docker:
               - image: cimg/base:2022.06
