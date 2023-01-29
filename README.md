@@ -17,6 +17,7 @@ Dataset url: https://www.kaggle.com/datasets/yasserh/uber-fares-dataset
 
 If you want to understand this entire project overflow, please refer the jupyter notebook file inside
 notebook folder.
+![Uber1](https://user-images.githubusercontent.com/75293746/215317436-ca5df9d4-dd3f-405e-9fa8-22648c260400.jpg)
 
 # Demo:
 
