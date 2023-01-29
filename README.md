@@ -37,7 +37,7 @@ notebook folder.
 Clone the repository
 
 ```bash
-https://github.com/entbappy/Customer-Personality-Analysis.git
+https://github.com/Sherin1998/Uber-fares.git
 ```
 ### STEP 01- Create a conda environment after opening the repository
 
