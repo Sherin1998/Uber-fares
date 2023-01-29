@@ -21,8 +21,12 @@ notebook folder.
 
 # Demo:
 
-<img src="static/assets/img/2.png" alt="workflow" width="70%">
-<img src="static/assets/img/3.png" alt="workflow" width="70%">
+![app uber](https://user-images.githubusercontent.com/75293746/215317827-855357c7-eb1d-4b0e-86d7-7461f4f9fed2.JPG)
+
+![result](https://user-images.githubusercontent.com/75293746/215317970-68e2e1b7-2fa4-46f2-89b7-7e07782aa4f9.JPG)
+
+
+
 
 
 # Built With
@@ -58,12 +62,12 @@ pip install -r requirements.txt
 
 Now run,
 ```bash
-python app.py
+streamlit run app.py
 ```
 
 Now run,
 ```bash
-Now open up your browser and type http://127.0.0.1:8080/
+Now open up your browser and type http://localhost:8501 
 
 Yeah you are ready to go!!😀😀
 ```
