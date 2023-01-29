@@ -10,9 +10,6 @@ We all have used taxis for commute.Have you ever wondered how this system works.
 Dataset url: https://www.kaggle.com/datasets/yasserh/uber-fares-dataset
 
 
-<img src="static/assets/img/1.png" alt="workflow" width="70%">
-
-
 ### Note:
 
 If you want to understand this entire project overflow, please refer the jupyter notebook file inside
